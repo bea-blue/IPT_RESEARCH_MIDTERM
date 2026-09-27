@@ -1,0 +1,14 @@
+{
+    "name": "nathaniel-marquez/combo-meal-builder",
+    "description": "Builder design pattern (GoF) demonstrated in PHP 8.1+ via a combo-meal ordering example.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
