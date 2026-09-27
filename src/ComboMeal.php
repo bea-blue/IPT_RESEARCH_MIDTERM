@@ -6,8 +6,6 @@ namespace App;
 
 /**
  * Product.
- *
- * The complex object being built. Immutable once constructed.
  */
 final class ComboMeal
 {

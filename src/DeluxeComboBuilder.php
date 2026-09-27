@@ -6,9 +6,6 @@ namespace App;
 
 /**
  * ConcreteBuilder.
- *
- * Builds the premium "Deluxe" combo meal representation, which adds
- * extra add-ons that the Value builder does not include.
  */
 final class DeluxeComboBuilder implements ComboBuilder
 {
@@ -29,14 +26,12 @@ final class DeluxeComboBuilder implements ComboBuilder
     public function setSide(string $side): static
     {
         $this->side = $side;
-
         return $this;
     }
 
     public function setDrink(string $drink): static
     {
         $this->drink = $drink;
-
         return $this;
     }
 

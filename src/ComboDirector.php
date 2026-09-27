@@ -6,10 +6,6 @@ namespace App;
 
 /**
  * Director.
- *
- * Knows the fixed sequence of steps needed to assemble a combo meal,
- * without knowing which concrete builder (or final representation)
- * it is working with.
  */
 final class ComboDirector
 {
